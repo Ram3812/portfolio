@@ -12,11 +12,11 @@ class About extends React.Component {
         return (
             <div style={{paddingTop: "15%", minHeight: "600px"}} id="about">
                 <div className="row">
-                    <div className="col-xs-6 col-xs-offset-1 my-name">
+                    <div className="col-md-6 col-md-offset-1 col-xs-12 my-name">
                         <h1>K Sri B Ram</h1>
                         <p>Hey rabbles! I'm Ram, highly interested in Data Analytics</p>
                     </div>
-                    <div className="col-xs-3 col-xs-offset-1 thumbnail">
+                    <div className="col-md-3 col-md-offset-1 col-xs-12 thumbnail">
                         <img src={require("./images/semi_formal.jpg")} alt="Ram"/>
                     </div>
                 </div>
