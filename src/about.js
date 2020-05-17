@@ -13,7 +13,7 @@ class About extends React.Component {
             <div style={{paddingTop: "15%", minHeight: "600px"}} id="about">
                 <div className="row">
                     <div className="col-xs-6 col-xs-offset-1 my-name">
-                        <h1>K Sri Bhargav Ram</h1>
+                        <h1>Kuchi Sri Bhargav Ram</h1>
                         <p>Hey rabbles! I'm Ram, highly interested in Data Analytics</p>
                     </div>
                     <div className="col-xs-3 col-xs-offset-1 thumbnail">
