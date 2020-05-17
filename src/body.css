@@ -1,0 +1,60 @@
+.my-name {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10%;
+    text-align: center;
+    color: rgb(25, 25, 25);
+}
+
+.skills {
+    font-size: 20px;
+}
+
+.caption a {
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+    font-size: 15px;
+}
+.icons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.icons a {
+    color: rgb(65, 135, 245);
+}
+
+.icons a:hover {
+    color: rgb(20, 105, 245);
+}
+
+.icons li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    align-items: center;
+    color: rgb(65, 135, 245);
+    padding: 20px 20px;
+    transition: .5s;
+}
+.icons li:hover {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.num {
+    padding: 5px;
+    margin: 0% 60% 0% 20%;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    color: rgb(25, 25, 25);
+}
+
+.gmail {
+    padding: 5px;
+    margin: 0% 15% 0% 65%;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    color: rgb(25, 25, 25);
+}
