@@ -15,7 +15,7 @@ class Contact extends React.Component {
     constructor() {
         super()
         this.state = {
-            linkedin: "https://www.linkedin.com/in/k-sri-bhargav-ram-46582817",
+            linkedin: "https://www.linkedin.com/in/k-sri-bhargav-ram-465828171/",
             twitter: "https://twitter.com/ram_3812?s=09",
             whatsapp: "+91 8500314070",
             facebook: "https://www.facebook.com/Bhargav.Kuchi",
