@@ -23,9 +23,9 @@ class Skills extends React.Component {
                     </div>
                     <div className="col-xs-2 col-xs-offset-1">
                         <div className="thumbnail">
-                            <img className="card-img-top" src={require("./images/semi_formal.jpg")} alt="Portfolio"/>
+                            <img className="card-img-top" src={require("./images/pf.jpg")} alt="Portfolio"/>
                             <div className="caption">
-                                <a href="https://github.com/Ram3812/portfolio">Git</a>
+                                <a href="https://github.com/Ram3812/portfolio" target="_blank">Git</a>
                                 <a href="#host" style={{float:"right"}}>Visit site</a>
                             </div>
                         </div>
