@@ -32,7 +32,7 @@ class Skills extends React.Component {
                     </div>
                     <div className="col-xs-2 col-xs-offset-1">
                         <div className="thumbnail">
-                            <img className="card-img-top" src={require("./images/pf.jpg")} alt="ISO Project"/>
+                            <img className="card-img-top" src={require("./images/ISO Pro.jpeg")} alt="ISO Project"/>
                             <div className="caption">
                                 <a href="https://github.com/Ram3812/twitter_project" target="_blank">Git</a>
                             </div>
