@@ -7,6 +7,8 @@
 
 .skills {
     font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .caption a {
