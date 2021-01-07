@@ -18,6 +18,9 @@ class Header extends React.Component  {
                                 className="navbar-toggle" 
                                 data-toggle="collapse" 
                                 data-target="#mynavbar"
+                                aria-controls="mynavbar"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
                             >
                                 <span className="icon-bar"></span>
                                 <span className="icon-bar"></span>
@@ -27,9 +30,9 @@ class Header extends React.Component  {
                         </div>
                         <div className="collapse navbar-collapse" id="mynavbar">
                             <ul className="nav navbar-nav navbar-right">
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#skills">Skills</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li className="nav-item"><a href="#about">About</a></li>
+                                <li className="nav-item"><a href="#skills">Skills</a></li>
+                                <li className="nav-item"><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>

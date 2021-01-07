@@ -47,7 +47,7 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div style={{paddingTop: "70px", minHeight: "600px"}} id="contact">
+            <div style={{paddingTop: "3%", minHeight: "300px"}} id="contact">
                 <div className="row">
                     <h1>Contact Me</h1>
                     <ul className="icons">
