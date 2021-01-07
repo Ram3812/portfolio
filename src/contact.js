@@ -17,32 +17,20 @@ class Contact extends React.Component {
         this.state = {
             linkedin: "https://www.linkedin.com/in/k-sri-bhargav-ram-465828171/",
             twitter: "https://twitter.com/ram_3812?s=09",
-            whatsapp: "+91 8500314070",
+            whatsapp: "https://wa.me/918500314070",
             facebook: "https://www.facebook.com/Bhargav.Kuchi",
             instagram: "https://instagram.com/r.a.m_007?igshid=1ck3lcio0li27",
             git: "https://github.com/Ram3812",
             mail: "sbramkuchi@gmail.com",
-            num: false, 
             gmail: false
         }
-        this.clickHandle = this.clickHandle.bind(this)
         this.handleClick = this.handleClick.bind(this)
         this.mouseOut = this.mouseOut.bind(this)
-    }
-
-    clickHandle() {
-        this.setState(prevState => {
-            return {
-                num: !prevState.num,
-                gmail: false
-            }
-        })
     }
 
     handleClick() {
         this.setState(prevState => {
             return {
-                num: false,
                 gmail: !prevState.gmail
             }
         })
@@ -74,7 +62,7 @@ class Contact extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#num" id="num" onMouseOver={this.clickHandle} onMouseOut={this.mouseOut}>
+                            <a href={this.state.whatsapp} id="num"  target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                             </a>
                         </li>
