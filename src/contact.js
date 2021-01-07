@@ -39,7 +39,6 @@ class Contact extends React.Component {
     mouseOut() {
         this.setState(prevState => {
             return {
-                num: false,
                 gmail: false
             }
         })
@@ -50,6 +49,7 @@ class Contact extends React.Component {
             <div style={{paddingTop: "3%", minHeight: "300px"}} id="contact">
                 <div className="row">
                     <h1>Contact Me</h1>
+                    <div className="icons">
                     <ul className="icons">
                         <li>
                             <a href={this.state.linkedin} id="linkedin" target="_blank" rel="noopener noreferrer">
@@ -87,11 +87,6 @@ class Contact extends React.Component {
                             </a>
                         </li>
                     </ul>
-                    <div 
-                        style={{display: this.state.num ? "block" : "none"}} 
-                        className="num"
-                    >
-                        {this.state.whatsapp}
                     </div>
                     <div 
                         style={{display: this.state.gmail ? "block" : "none"}} 

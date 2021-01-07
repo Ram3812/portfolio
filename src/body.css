@@ -19,8 +19,15 @@
     background-color: rgb(170,245,200);
     border-radius: 20px;
     margin: 10px;
-    padding: 5px;
+    padding: 7px;
 }
+
+.skills li a:hover{
+    background-color: rgb(245,200,170);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
 .projects {
     font-size: 20px;
     text-align: justify;
@@ -32,41 +39,22 @@
     text-decoration: none;
     font-size: 15px;
 }
-.icons {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+
+.icons ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 }
 
-.icons a {
-    color: rgb(65, 135, 245);
+.icons li a{
+    float: left;
+    margin: 20px 43px;
+    padding: 10px;
 }
 
-.icons a:hover {
-    color: rgb(20, 105, 245);
-}
-
-.icons li {
-    list-style: none;
-    margin: 10px 30px;
-    display: inline-block;
-    align-items: center;
-    color: rgb(65, 135, 245);
-    padding: 20px 20px;
-    transition: .5s;
-}
-.icons li:hover {
-    font-size: x-large;
-    cursor: pointer;
-}
-
-.num {
-    padding: 5px;
-    margin: 0% 60% 0% 20%;
-    background-color: rgba(255, 255, 255, 0.3);
-    text-align: center;
-    color: rgb(25, 25, 25);
+.icons li a:hover {
+    margin-top: 17px;
 }
 
 .gmail {
