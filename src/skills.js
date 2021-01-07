@@ -12,36 +12,21 @@ class Skills extends React.Component {
         return (
             <div style={{paddingTop: "70px", minHeight: "600px"}} id="skills">
                 <div className="row">
-                    <h1>Skills & Projects</h1>
-                    <div className="col-xs-5 skills">
+                    <h1>Skills</h1>
+                    <div className="col-xs-12 skills">
                         <ul>
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>Machine Learning</li>
-                            <li>HTML & CSS</li>
-                            <li>React JS</li>
+                            <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)"  rel="noopener noreferrer" target="_blank">Java</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)"  rel="noopener noreferrer" target="_blank">Python</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Machine_learning"  rel="noopener noreferrer" target="_blank">Machine Learning</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/HTML"  rel="noopener noreferrer" target="_blank">HTML</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/CSS"  rel="noopener noreferrer" target="_blank">CSS</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/React_(web_framework)"  rel="noopener noreferrer" target="_blank">React JS</a></li>
                         </ul>
-                    </div>
-                    <div className="col-xs-2 col-xs-offset-1">
-                        <div className="thumbnail">
-                            <img className="card-img-top" src={require("./images/pf.jpg")} alt="Portfolio"/>
-                            <div className="caption">
-                                <a href="https://github.com/Ram3812/portfolio" rel="noopener noreferrer" target="_blank">Git</a>
-                                <a href="#host" style={{float:"right"}}>Visit site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xs-2 col-xs-offset-1">
-                        <div className="thumbnail">
-                            <img className="card-img-top" src={require("./images/isoPro.jpeg")} alt="ISO Project"/>
-                            <div className="caption">
-                                <a href="https://github.com/Ram3812/twitter_project" rel="noopener noreferrer" target="_blank">Git</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 skills">
+                    <h1>Projects</h1>
+                    <div className="col-xs-12 projects">
                         <ul>
                             <li><b>Portfolio</b></li>
                             <p>The page you are currently on is my Portfolio. To know how I implemented this, go to the <a href="https://github.com/Ram3812/portfolio" rel="noopener noreferrer" target="_blank">github repository</a></p> <br/>

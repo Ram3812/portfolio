@@ -5,7 +5,23 @@
     color: rgb(25, 25, 25);
 }
 
-.skills {
+.skills ul{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.skills li a{
+    float: left;
+    color: black;
+    background-color: rgb(170,245,200);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.projects {
     font-size: 20px;
     text-align: justify;
     text-justify: inter-word;
@@ -59,4 +75,10 @@
     background-color: rgba(255, 255, 255, 0.3);
     text-align: center;
     color: rgb(25, 25, 25);
+}
+
+@media only screen and (max-width: 988px) {
+    .dis {
+        display: none;
+    }
 }
