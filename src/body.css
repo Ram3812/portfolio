@@ -66,6 +66,12 @@
 }
 
 @media only screen and (max-width: 988px) {
+    .skills li a:hover{
+        margin-top: 10px;
+    }
+    .icons li a:hover{
+        margin-top: 20px;
+    }
     .gmail {
         margin: 0% 15% 0% 15%;
     }
